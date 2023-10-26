@@ -1,0 +1,185 @@
+.main_logo {
+  display: flex;
+  align-items: center;
+  // margin-left: 8%;
+  img {
+    height: 75px;
+    width: 85px;
+  }
+  svg {
+    width: 190px;
+    height: 48px;
+  }
+}
+
+
+.profile_bx {
+  display: flex;
+  align-items: center;
+  margin-left: 0.7rem;
+  cursor: pointer;
+  .profile_name {
+    margin-left: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    p {
+      color: #294566;
+      font-style: normal;
+      font-weight: 800;
+      font-size: 0.75rem;
+      line-height: 1.25rem;
+      margin-right: 2px;
+    }
+  }
+  .profile_icon {
+    display: flex;
+    align-items: center;
+  }
+}
+.header-button {
+  border: 1px solid #000000 !important;
+  border-radius: 18px !important;
+  padding: 6px 30px !important;
+  @media (width < 900) {
+    padding: 6px 10px !important;
+  }
+}
+.admin_main_profile_bx {
+  display: flex;
+  align-items: center;
+  .admin_profile_bx {
+    margin-right: 0.8rem;
+    li div:first-child svg {
+      margin-right: 0.8rem;
+    }
+    li div:nth-child(2) span span svg {
+      margin-left: 0.7rem;
+      margin-bottom: 2px;
+    }
+  }
+  .admin_notification_bx_dissabled {
+    pointer-events: none;
+    opacity: 0.4;
+    background: #e9a239;
+    height: 45px;
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    margin-right: 1rem;
+    @media (max-width: 576px) {
+      height: 36px;
+      width: 36px;
+    }
+    // .dissabled_badge{
+    //   display: none;
+    // }
+    .MuiBadge-badge {
+      background: #fff !important;
+      color: #000000 !important;
+      border: 1px solid #000000;
+      height: 20px;
+      width: 15px;
+      display: flex;
+      top: -6px !important;
+      right: -7px !important;
+      @media (max-width: 576px) {
+        top: -2px !important;
+        right: -6px !important;
+      }
+      svg {
+        @media (max-width: 576px) {
+          height: 18px;
+        }
+      }
+    }
+  }
+  .admin_notification_bx {
+    background: #aa7d54;
+    height: 45px;
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    align-items: center;
+    border-radius: 50%;
+    margin-right: 1rem;
+    @media (max-width: 576px) {
+      height: 36px;
+      width: 36px;
+    }
+    .MuiBadge-badge {
+      background: #fff !important;
+      color: #000000 !important;
+      border: 1px solid #000000;
+      height: 20px;
+      width: 15px;
+      display: flex;
+      top: -6px !important;
+      right: -7px !important;
+      // @media (max-width: 576px) {
+      //   top: -2px !important;
+      //   right: -6px !important;
+      // }
+      // svg {
+      //   @media (max-width: 576px) {
+      //     height: 18px;
+      //   }
+      // }
+    }
+  }
+}
+.main_notification_bx {
+  width: 400px;
+  h4 {
+    padding-left: 1.5rem;
+  }
+  .heading_bx {
+    padding: 1.5rem;
+  }
+  .block {
+    margin-bottom: 0.8rem;
+  }
+  .block .item_bx {
+    &:last-child {
+      border-bottom: none;
+    }
+  }
+  .item_bx {
+    padding: 1.5rem;
+    padding-top: 0.7rem;
+    padding-bottom: 0.7rem;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    border-bottom: 1px solid #e4e8ee;
+    .left_item {
+      margin-right: 0.9rem;
+    }
+    .right_item {
+      p {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px;
+        color: #1a1f36;
+        margin-bottom: 0.3rem;
+        span {
+          color: #aa7d54;
+        }
+      }
+      button {
+        margin-bottom: 0.6rem;
+        display: block;
+      }
+      span {
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 20px;
+        color: #a5acb8;
+      }
+    }
+  }
+}
+// ----------------------/////////css///

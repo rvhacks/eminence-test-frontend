@@ -1,0 +1,79 @@
+.header-main-grid {
+  background-color: #fffbfb;
+  height: 110px;
+  position: static;
+
+  .header-frist-grid {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .second-header-grid {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+  }
+
+  .header-emblem-logo {
+    height: 75px;
+    width: 44px;
+    margin-right: 10px;
+  }
+  .header-summarize-logo {
+    height: 88px;
+    width: 155px;
+  }
+
+  .main_div {
+    position: sticky !important;
+  }
+
+  .header-first-typo {
+    cursor: pointer;
+    color: #080101;
+    padding-left: 25px;
+    font-weight: 600;
+    font-size: 30px;
+    margin-left: 2rem;
+  }
+  .header-second-typo {
+    color: #050000;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.05rem;
+    line-height: 27px;
+    padding-bottom: 5px;
+  }
+
+  .header-search {
+    background-color: #d9d9d9;
+    border-radius: 50px;
+  }
+  .btnheader {
+    margin-right: 4rem;
+    button:first-child {
+      margin-right: 2rem;
+    }
+  }
+}
+.fullscreen_image {
+  .MuiPaper-root {
+    max-width: 1600px;
+    width: 70%;
+  }
+}
+.profile_bx {
+  margin-right: 3rem;
+  p {
+    color: #000;
+    font-weight: 600;
+    margin-right: 30px;
+  }
+  span {
+    font-weight: 400;
+  }
+  img {
+    margin-right: 10px;
+  }
+}

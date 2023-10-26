@@ -1,0 +1,155 @@
+/* HomeSlider Css */
+@import "../../../assets//style/sass/variable";
+.Home .dot {
+  height: 10px;
+  width: 10px;
+  border: 1px;
+  border-color: "#FAFAFA";
+}
+
+.Home .slick-prev,
+.slick-next {
+  z-index: 999;
+  width: 46px;
+  height: 52px;
+}
+
+.Home .slick-prev {
+  left: 19px;
+}
+
+.Home .slick-next {
+  right: 19px;
+}
+
+.Home .slider-images {
+  width: 100%;
+  background: #1e160a;
+  opacity: 0.6 !important;
+}
+
+.Home .slick-dots {
+  position: absolute;
+  bottom: 21px !important;
+}
+.slick_spacing {
+  .slick-slide > div {
+    margin: 0 10px;
+  }
+  .slick-list {
+    margin: 0 -10px;
+  }
+}
+
+.Home .slick-prev:before,
+.slick-next:before {
+  font-family: "slick";
+  font-size: 35px;
+}
+
+.Home .slick-dots li button:before {
+  border: 1px solid #fff;
+  font-family: "slick";
+  font-size: 6px;
+  line-height: 18px;
+  position: absolute;
+  top: 0;
+  border-radius: 50px;
+  left: 0;
+  width: 10px;
+  height: 10px;
+  content: "";
+  text-align: center;
+  opacity: 1;
+}
+.Home .slick-dots li.slick-active button {
+  margin-top: 3px;
+}
+.Home .slick-dots li.slick-active button:before {
+  opacity: 1;
+  background-color: #e9a239 !important;
+  border: 1px solid #e9a239;
+  width: 15px;
+  height: 15px;
+}
+/* HomeSlider Css */
+.home_container {
+  position: relative;
+  .text_heading {
+    position: absolute;
+    top: 45%;
+    bottom: 45%;
+    left: 25%;
+    right: 25%;
+    text-align: center;
+    @media (max-width: 576px) {
+      top: 31%;
+      left: 19%;
+      right: 19%;
+    }
+    h1 {
+      font-weight: 500;
+      font-size: 4rem;
+      line-height: 5.5rem;
+      color: #fff;
+      margin-bottom: 0;
+      @media (max-width: 576px) {
+        font-size: 2rem;
+        line-height: 2rem;
+      }
+    }
+    hr {
+      width: 40%;
+      height: 1px;
+      margin: 0 auto;
+    }
+  }
+}
+.slick-list {
+  height: 354px;
+}
+.special-offers-section {
+  h2 {
+    margin-bottom: 2rem;
+  }
+  margin-bottom: 2rem;
+  margin-top: 3rem;
+  padding: 20px;
+  border-top: 1px solid #ddd;
+  background: #c6ffdd; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #f7797d, #fbd786, #c6ffdd);
+  background: linear-gradient(
+    to right,
+    #f7797d,
+    #fbd786,
+    #c6ffdd
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.special-offers-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.offer-item {
+  text-align: center;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.offer-item h3 {
+  font-size: 18px;
+  color: #333;
+}
+
+.offer-item p {
+  font-size: 16px;
+  color: #666;
+}
+.banner {
+  background-image: url("../../../../src/assets/images/auth/specia.webp");
+  margin-top: 3rem;
+}
